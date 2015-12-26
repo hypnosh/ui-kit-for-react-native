@@ -6,6 +6,7 @@ While starting a React Native project, wouldn't it be nice to have UI elements w
 This UI Kit is loosely based on styling from Twitter's Bootstrap.
 
 **Installation**
+
 Include uikit.js in your React Native project, and ````require```` it thus:
 ```
 var [
@@ -21,13 +22,16 @@ var [
 ```
 
 **Usage**
+
 ***TextBoxwithLabel***
+
 TextBoxwithLabel is a simple text input box along with a label.
 ```
 <TextBoxwithLabel labelText="label" updateFunction={this.functionOnChange} />
 ```
 
 ***Buttons***
+
 This kit imitates the six button styles from Twitter Bootstrap, but instead of segregating them by CSS classes, they are available as six components.
 ```
 <ButtonPrimary
