@@ -27,7 +27,7 @@ var [
 
 TextBoxwithLabel is a simple text input box along with a label.
 ```
-<TextBoxwithLabel labelText="label" updateFunction={this.functionOnChange} />
+<TextBoxwithLabel labelText="Edit Me" updateFunction={this.functionOnChange} />
 ```
 
 ***Buttons***
